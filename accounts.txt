@@ -1,0 +1,19 @@
+public class accounts
+{
+    public static void main(String args[])
+    {
+        double earning=5000;
+        double nec=(0.55)*earning;
+        double ffa=(0.10)*earning;
+        double edu=(0.10)*earning;
+        double ltss=(0.10)*earning;
+        double play=(0.55)*earning;
+        double give=(0.05)*earning;
+        System.out.println("NEC:"+(int)(nec));
+         System.out.println("FFA:"+(int)(ffa));
+          System.out.println("EDU:"+(int)(edu));
+           System.out.println("LTSS:"+(int)(ltss));
+             System.out.println("GIVE:"+(int)(give));
+              System.out.println("PLAY:"+(int)(play));
+    }
+}
